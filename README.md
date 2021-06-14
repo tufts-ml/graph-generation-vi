@@ -1,7 +1,7 @@
 # Order Matters: Probabilistic Modeling of Node Sequencefor Graph Generation
 
 
-This repository contains PyTorch implementation of the following paper: Order Matters: Probabilistic Modeling of Node Sequencefor Graph Generation
+This repository contains PyTorch implementation of the following paper: ["Order Matters: Probabilistic Modeling of Node Sequencefor Graph Generation"](https://arxiv.org/abs/2106.06189)
 
 ## 0. Environment Setup
 enviroment setup: "run conda install -f enviroment.yml"
