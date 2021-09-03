@@ -40,8 +40,8 @@ python main.py \
     --note <GraphRNN, DGMG, Graphgen>                  \
     --sample_size 16                                   \
     --gcn_type <gat, gcn, appnp>                       \
-    --max_cr_iteration 5                               \
-    ----enable_gcn                                     \
+    --max_cr_iteration 5                          
+    --enable_gcn     
 ```    
    
    
@@ -58,7 +58,7 @@ python main.py \
     --sample_size 16                                   \
     --gcn_type <gat, gcn, appnp>                       \
     --max_cr_iteration 5                               \
-    ----enable_gcn                                     \
+    --enable_gcn     
 ```    
 
 To train the given model on caveman_small dataset, run the following:
@@ -70,7 +70,7 @@ python main.py \
     --sample_size 16                                   \
     --gcn_type <gat, gcn, appnp>                       \
     --max_cr_iteration 5                               \
-    ----enable_gcn                                     \
+    --enable_gcn     
 ```    
 
 To train the given model on citeseer_small dataset, run the following:
@@ -82,7 +82,7 @@ python main.py \
     --sample_size 16                                   \
     --gcn_type <gat, gcn, appnp>                       \
     --max_cr_iteration 5                               \
-    ----enable_gcn     
+    --enable_gcn     
 ```    
 
 
