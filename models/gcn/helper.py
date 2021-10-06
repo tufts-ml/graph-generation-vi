@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 import torch.multiprocessing as multiprocessing
 import itertools
-from torch._six import queue
+# from torch._six import queue
 from torch.utils.data._utils.worker import ManagerWatchdog
 from torch.utils.data._utils import MP_STATUS_CHECK_INTERVAL, python_exit_status
 from torch.distributions.distribution import Distribution
@@ -249,7 +249,8 @@ def worker_loop(index_queue, data_queue, done_event):
         while watchdog.is_alive():
             try:
                 r = index_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
-            except queue.Empty:
+            except:
+#             except queue.Empty:
                 continue
             if r is None:
                 # Received the final signal
@@ -282,7 +283,8 @@ def worker_loop_vf2(index_queue, data_queue, done_event):
         while watchdog.is_alive():
             try:
                 r = index_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
-            except queue.Empty:
+            except:
+#             except queue.Empty:
                 continue
             if r is None:
                 # Received the final signal

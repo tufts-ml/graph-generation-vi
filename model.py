@@ -3,7 +3,7 @@ from models.dgmg.model import DGM_graphs
 from models.graph_rnn.model import create_model as create_model_graph_rnn
 from models.gcn.model import create_model as create_model_gcn
 from models.graphgen.model import create_model as create_model_graphgen
-from models.gran.model import create_model as create_model_gran
+# from models.gran.model import create_model as create_model_gran
 from utils import load_model, get_last_checkpoint
 
 

@@ -13,7 +13,7 @@ from models.graph_rnn.data import Graph_to_Adj_Matrix, Graph_Adj_Matrix
 from models.dgmg.data import Graph_to_Action
 from models.gcn.helper import legal_perms_sampler, mp_sampler
 from models.graphgen.helper import dfscode_to_tensor
-from models.gran.data import GRANData
+# from models.gran.data import GRANData
 
 from model import create_models
 from train import train

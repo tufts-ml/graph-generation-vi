@@ -12,7 +12,7 @@ from utils import save_model, load_model, get_model_attribute, get_last_checkpoi
 from models.gcn.helper import legal_perms_sampler
 from models.graph_rnn.train import evaluate_loss as eval_loss_graph_rnn
 from models.dgmg.train import evaluate_loss as eval_loss_dgmg
-from models.gran.model import evaluate_loss as eval_loss_gran
+# from models.gran.model import evaluate_loss as eval_loss_gran
 from models.graphgen.train import evaluate_loss as eval_loss_graphgen
 from torch.utils.data._utils.collate import default_collate as collate
 
