@@ -9,7 +9,6 @@ enviroment setup: "run conda install -f enviroment.yml"
 installation of Graph automorphism library: https://web.cs.dal.ca/~peter/software/pynauty/html/install.html
 
 ## 1. Experiment
-To replicate the results in the paper for MNIST and CIFAR10  dataset, run the following commands:
 
 ``` shell
 #DGMG
